@@ -934,7 +934,6 @@ div[data-overlay] ul {
   margin-right: 0;
 }
 .btn--xs {
-
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 1.39285714em;
@@ -947,13 +946,13 @@ div[data-overlay] ul {
   padding-left: 1.85714286em;
 }
 .btn--lg {
-  padding-top: 1.58035714em;
-  padding-bottom: 1.58035714em;
+  padding-top: 0.58035714em;
+  padding-bottom: 0.58035714em;
   padding-right: 3.48214286em;
   padding-left: 3.48214286em;
 }
 .btn--lg .btn__text {
-  font-size: 0.8em;
+  font-size: 1.07142857em;
 }
 .btn--primary,
 .btn--primary:visited {
@@ -4478,10 +4477,10 @@ p > .btn {
   height: 100%;
   left: 0;
   top: 0;
-  
-  padding: 23px 0 0 13px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 13px;
   border-radius: 6px 0 0 6px;
-  font-size: 40px;
+  font-size: 16px;
   line-height: 41px;
 }
 .btn--icon i.socicon {
